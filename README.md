@@ -1,4 +1,27 @@
-# Apps
-Shiny Apps
-Among the many things one person can do to keep an ideal weight, according to the height are, have an adequate size of portions in every meal, and exercise at least three times a week for no less than 25 minutes.    
-In this BodyMassIndex App you can select your actual weight with the arrows in the first box, and then slide your way to your actual height.  Your BMI will appear in the right pane and you can choose whether to see the indicator of the segment you are in.  Additionally, you can choose to see a comment about the appropriate size of portions to have in every meal and the amount of exercise recommended by doctors. This App was done using the Shiny package.
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="application/shiny-singletons"></script>
+  <script type="application/html-dependencies">json2[2014.02.04];jquery[3.5.1];shiny[1.5.0]</script>
+<script src="shared/json2-min.js"></script>
+<script src="shared/jquery.min.js"></script>
+<link href="shared/shiny.css" rel="stylesheet" />
+<script src="shared/shiny.min.js"></script>  <script src="rmd_resources/rmd_loader.js"></script>
+  <link href="rmd_resources/rmd_loader.css" rel="stylesheet"/>
+</head>
+<body>
+  <div>
+    <div data-display-if="!output.__reactivedoc__" data-ns-prefix="">
+      <div id="rmd_loader_wrapper">
+        <div id="rmd_loader" style="display: none">
+          <p>Please wait...</p>
+          <img src="rmd_resources/rmd_loader.gif"/>
+        </div>
+      </div>
+    </div>
+    <div id="__reactivedoc__" class="shiny-html-output"></div>
+  </div>
+</body>
+</html>
+
