@@ -1,7 +1,6 @@
 ---
 title: "Adult Body Mass Index App"
 author: "Monica Maria Solorzano Rodriguez"
-date: "11/30/2020"
 output: ioslides_presentation
 runtime: shiny
 ---
